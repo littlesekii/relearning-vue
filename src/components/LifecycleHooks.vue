@@ -6,7 +6,6 @@
 
 <script setup>
 import { ref, onBeforeMount, onBeforeUnmount, onBeforeUpdate, onMounted, onUnmounted, onUpdated } from 'vue';
-import { RouterLink } from 'vue-router';
 
 onBeforeMount(() => {
     console.log("Lifecycle Hooks - Before Mount");
@@ -50,7 +49,9 @@ let updated = ref(0);
 
 <style scoped>
     .container {
-        width: 200px;
+        width: 100%;
+        max-width: 200px;
+
         padding: 10px;
     }
 
