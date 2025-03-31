@@ -9,11 +9,11 @@ import { RouterView } from 'vue-router'
 </template>
 
 <style scoped>
-  main {
-    height: 100vh;
+main {
+  height: 100vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 </style>
