@@ -5,6 +5,7 @@ import DirectiveVFor from '@/components/Directives/DirectiveVFor.vue';
 import LifecycleHooks from '@/components/LifecycleHooks.vue';
 import Reactivity from '@/components/Reactivity.vue';
 import DirectiveEvents from '@/components/Directives/DirectiveEvents.vue';
+import DirectiveVModel from '@/components/Directives/DirectiveVModel.vue';
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import DirectiveEvents from '@/components/Directives/DirectiveEvents.vue';
   <!-- <DirectiveVFor /> -->
   <!-- <DirectiveConditional /> -->
   <!-- <DirectiveVBind /> -->
-  <DirectiveEvents />
+  <!-- <DirectiveEvents /> -->
+  <DirectiveVModel />
 </template>
