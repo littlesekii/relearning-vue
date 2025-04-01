@@ -10,6 +10,8 @@ import EventModifiers from '@/components/EventModifiers.vue';
 import ComputedProperties from '@/components/ComputedProperties.vue';
 import ComponentProps from '@/components/ComponentProps.vue';
 import EmitParent from '@/components/Emit/EmitParent.vue';
+import BasicSlot from '@/components/Slot/BasicSlot.vue';
+import ScopedSlotParent from '@/components/Slot/ScopedSlotParent.vue';
 </script>
 
 <template>
@@ -23,5 +25,22 @@ import EmitParent from '@/components/Emit/EmitParent.vue';
   <!-- <EventModifiers /> -->
   <!-- <ComputedProperties /> -->
   <!-- <ComponentProps name="Davi" age="22" /> -->
-  <EmitParent />
+  <!-- <EmitParent /> -->
+  <!-- <BasicSlot>
+    <template v-slot:header>
+      Header
+    </template>
+
+    <!-- This template tag can be ommited because its the default ->
+    <template v-slot:default>
+      default content
+    </template>
+    
+    <template #footer>
+      Footer
+    </template>
+  </BasicSlot> -->
+
+  <ScopedSlotParent />
+
 </template>
