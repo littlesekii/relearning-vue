@@ -9,6 +9,7 @@ import DirectiveVModel from '@/components/Directives/DirectiveVModel.vue';
 import EventModifiers from '@/components/EventModifiers.vue';
 import ComputedProperties from '@/components/ComputedProperties.vue';
 import ComponentProps from '@/components/ComponentProps.vue';
+import EmitParent from '@/components/Emit/EmitParent.vue';
 </script>
 
 <template>
@@ -21,5 +22,6 @@ import ComponentProps from '@/components/ComponentProps.vue';
   <!-- <DirectiveVModel /> -->
   <!-- <EventModifiers /> -->
   <!-- <ComputedProperties /> -->
-  <ComponentProps name="Davi" age="22" />
+  <!-- <ComponentProps name="Davi" age="22" /> -->
+  <EmitParent />
 </template>
