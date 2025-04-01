@@ -7,6 +7,7 @@ import Reactivity from '@/components/Reactivity.vue';
 import DirectiveEvents from '@/components/Directives/DirectiveEvents.vue';
 import DirectiveVModel from '@/components/Directives/DirectiveVModel.vue';
 import EventModifiers from '@/components/EventModifiers.vue';
+import ComputedProperties from '@/components/ComputedProperties.vue';
 </script>
 
 <template>
@@ -17,5 +18,6 @@ import EventModifiers from '@/components/EventModifiers.vue';
   <!-- <DirectiveVBind /> -->
   <!-- <DirectiveEvents /> -->
   <!-- <DirectiveVModel /> -->
-  <EventModifiers />
+  <!-- <EventModifiers /> -->
+  <ComputedProperties />
 </template>
