@@ -8,6 +8,7 @@ import DirectiveEvents from '@/components/Directives/DirectiveEvents.vue';
 import DirectiveVModel from '@/components/Directives/DirectiveVModel.vue';
 import EventModifiers from '@/components/EventModifiers.vue';
 import ComputedProperties from '@/components/ComputedProperties.vue';
+import ComponentProps from '@/components/ComponentProps.vue';
 </script>
 
 <template>
@@ -19,5 +20,6 @@ import ComputedProperties from '@/components/ComputedProperties.vue';
   <!-- <DirectiveEvents /> -->
   <!-- <DirectiveVModel /> -->
   <!-- <EventModifiers /> -->
-  <ComputedProperties />
+  <!-- <ComputedProperties /> -->
+  <ComponentProps name="Davi" age="22" />
 </template>
