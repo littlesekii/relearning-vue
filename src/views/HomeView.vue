@@ -12,6 +12,7 @@ import ComponentProps from '@/components/ComponentProps.vue';
 import EmitParent from '@/components/Emit/EmitParent.vue';
 import BasicSlot from '@/components/Slot/BasicSlot.vue';
 import ScopedSlotParent from '@/components/Slot/ScopedSlotParent.vue';
+import TemplateRef from '@/components/TemplateRef.vue';
 </script>
 
 <template>
@@ -41,6 +42,8 @@ import ScopedSlotParent from '@/components/Slot/ScopedSlotParent.vue';
     </template>
   </BasicSlot> -->
 
-  <ScopedSlotParent />
+  <!-- <ScopedSlotParent /> -->
+
+  <TemplateRef />
 
 </template>
